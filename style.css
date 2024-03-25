@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary: #DEF2F1;
+    --secondary: #17252A;
+    --accent1: #3AAFA9;
+    --accent2: #2B7A78;
+    --accent3: #FEFFFF;
+}
+
+html, body {
+    background-color: var(--primary);
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+}
+
+.navbar {
+    background-color: var(--secondary);
+    height: 60px;
+    border-radius: 30px;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    position: fixed;
+    width: 90%;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.navbar a {
+    color: var(--accent3);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 6px 50px 50px 50px;
+}
+
+.nav-option {
+    border-radius: 30px;
+    height: 35px;
+    width: 500px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.active {
+    background-color: var(--accent1);
+}
+
+.home {
+    padding-top: 50px;
+    text-align: center;
+    color: var(--secondary);
+}
+
+.home h1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.section-title {
+    font-size: 35px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+
+.section-header {
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+
+.home span {
+    color: var(--accent2);
+}
+
+.about {
+    background-color: var(--secondary);
+    color: var(--accent3);
+    border: 2px solid var(--secondary);
+    border-radius: 30px;
+    width: 100%;
+}
+
+
+.about-content {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.about h4 {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.about-content ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 16px;
+}
+
+
+.about p {
+    margin: 0px;
+
+}
+
+.project-content {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin-top: 0px;
+}
+
+.prev-proj {
+    margin-left: 50px;
+}
+
+.proj-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.proj-desc {
+    font-size: 16px;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.contact {
+    background-color: var(--secondary);
+    color: var(--accent3);
+}
+
+.contact .section-title {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+#contact-info p{
+    font-size: 16px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#contact-info button {
+    width: 40px;
+    height: 40px;
+    margin-left: 50px;
+    border-radius: 30px;
+    background-color: var(--primary);
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#contact-info button:hover {
+    box-shadow: 0 0 8px var(--primary);
+}
+
+.footer-title {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 18;
+}
+
+.footer-nav a{
+    display: block;
+    color: var(--accent3);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#nav-about:background-color, #nav-proj, #nav-resume, #nav-reflection, #nav-contact {
+    visibility: hidden;
+}

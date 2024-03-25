@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js"></script>
+
+        <title>E-Portfolio</title>
+    </head>
+
+<body>
+    <div class="navbar">
+        <a class="nav-option active" href="#main" onclick="changeColor(this)">Home</a>
+        <a class="nav-option" href="#about-me" onclick="changeColor(this)">About</a>
+        <a class="nav-option" href="#my-projs" onclick="changeColor(this)">Projects</a>
+        <a class="nav-option" href="resume.html" onclick="changeColor(this)">Resume</a>
+        <a class="nav-option" href="reflection.html" onclick="changeColor(this)">Reflection</a>
+        <a class="nav-option" href="#contact-me" onclick="changeColor(this)">Contact</a>
+    </div>
+
+    <div class="home" id="main">
+        <h1>Hello! I'm <span>Fatima</span>, <br>Computer Science Undergraduate Student</h2>
+        <div class="home-img"></div>
+    </div>
+
+    <div class="about" id="about-me">
+        <h3 class="section-title">About</h3>
+        <h2 class="section-header">Get to know me</h2>
+
+        <div class="about-content">
+            <div class="grid-item">
+                <h4>Technical Skills</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>C</li>
+                        <li>Go</li>
+                        <li>SQL</li>
+                    </ul>
+            </div>
+
+            <div class="grid-item">
+                <h4>Soft Skills</h4>
+                    <ul>
+                        <li>Time Management</li>
+                        <li>Organized</li>
+                        <li>Resourceful</li>
+                        <li>Collaborative</li>
+                        <li>Resilient</li>
+                        <li>Active Listener</li>
+                    </ul>
+            </div>
+
+            <div class="grid-item">
+                <h4>Education</h4>
+                    <div class="educ-info">
+                        <p>Bachelor in Science Major in Software Technology</p>
+                        <p>2021 - Present</p>
+                        <p>De La Salle University of Manila</p>
+                    </div>
+                    <br>
+
+                    <div class="educ-info">
+                        <p>Senior High School (STEM)</p>
+                        <p>2019-2021</p>
+                        <p>University of Santo Tomas - Legazpi</p>
+                    </div>
+                    <br>
+
+                    <div class="educ-info">
+                        <p>Junior High School</p>
+                        <p>2015-2019</p>
+                        <p>University of Santo Tomas - Legazpi</p>
+                    </div>
+            </div>
+
+            <div class="grid-item">
+                <h4>Work Experience</h4>
+                    <div class="work-exp">
+                        <p>Encoder</p>
+                        <p>2019-2022</p>
+                        <p>Daraga Dy Enterprises</p>
+                    </div>
+            </div>
+            <div class="about-img"></div>
+        </div>
+    </div>
+
+    <div class="projects" id="my-projs">
+        <h3 class="section-title">Projects</h3>
+        <h2 class="section-header">What I've been up to</h2>
+        
+        <div class="project-content">
+            <div class="prev-proj">
+                <p class="proj-title">Text-based Game: Four Donkeys</p>
+                <p class="proj-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div class="prev-proj">
+                <p class="proj-title">Text-based Recreation of Backgammon Board Game</p>
+                <p class="proj-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div class="prev-proj">
+                <p class="proj-title">Database Application</p>
+                <p class="proj-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div class="prev-proj">
+                <p class="proj-title">Basic Website for Taxi Company</p>
+                <p class="proj-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact-me">
+        <div class="contact-content">
+            <div class="footer-item" id="contact-info">
+                <h3 class="section-title">Let's Connect</h3>
+                <p class="contact-num">+63 9177132065</p>
+                <p class="contact-email">fatimady.ddye@gmail.com</p>
+                <button class="contact-facebook" onclick="window.location.href='https://www.facebook.com/fat.sy.dy/'">f</button>
+            </div>
+
+            <div class="footer-item">
+                <div class="footer-nav">
+                    <p class="footer-title">Navigation</p>
+                    <a href="#main">Home</a>
+                    <a href="#about-me">About</a>
+                    <a href="#my-projs">Projects</a>
+                    <a href="/resume.html">Resume</a>
+                    <a href="/reflection.html">Reflection</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
