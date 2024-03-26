@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary: #DEF2F1;
+    --secondary: #17252A;
+    --accent1: #3AAFA9;
+    --accent2: #2B7A78;
+    --accent3: #FEFFFF;
+}
+
+body {
+    margin-left: 50px;
+    color: var(--accent3);
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--secondary);
+    position: relative;
+    margin-top: 20px;
+}
+
+hr {
+    border-color: var(--primary);
+}
+
+header {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+#title-line {
+    width: 80%;
+}
+
+#back-btn {
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+#back-btn:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--primary);
+}
+
+#btn-img {
+    background-image: url(/images/resume-sprite.png); 
+    width: 50px;
+    height: 50px;
+    zoom: .6;
+    background-position: -522px -1132px;
+    position: relative;
+    margin-top: -45px;
+    transform: scaleX(-1);
+}
+
+.content-column {
+   float: left;
+   width: 43%;
+   padding: 20px;
+}
+  
+.content-row::after {
+   content: "";
+   display: table;
+   clear: both;
+   position: absolute;
+}
+
+.rect-container {
+    width: 50%;
+    height: 1300px;
+    background-color: var(--accent2);
+    border: 2px solid var(--secondary);
+    z-index: -2;
+    position: absolute;
+    margin: 150px 50px 50px -50px;
+}
+
+#left-content {
+    margin-left: 80px;
+}
+
+#my-img {
+    background-image: url(/images/resume-sprite.png);
+    height: 450px;
+    width: 475px;
+    background-position: -130px -60px;
+    zoom: .9;
+}
+
+.content-line {
+    width: 500px;
+    margin-left: 0;
+}
+
+#name {
+    font-weight: 900;
+    font-size: 50px;
+    padding-bottom: 50px;
+    letter-spacing: 3px;
+}
+
+#contact-info, .section-content, li, .ed-level, .ed-content {
+    font-size: 20px;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+
+#right-content {
+    margin-top: 20px;
+    max-width: 500px;
+}
+
+#emp-responsibilities li {
+    max-width: 500px;
+    margin-bottom: 7px;
+}
+
+.skills {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+}
+
+.ed-level {
+    font-weight: 600;
+}
+
+.ed-content {
+    margin-top: 5px;
+}
+
+.accent-img {
+    background-image: url(/images/resume-sprite.png);
+    width: 50px;
+    height: 50px;
+    background-position: -522px -1132px;
+    position: relative;
+    margin-top: -50px;
+    margin-left: 450px;
+}
+
+#contact-address, #contact-email, #contact-no {
+    margin-left: 50px;
+}
+
+.contact-icon {
+    background-image: url(/images/resume-sprite.png);
+    width: 45px;
+    height: 45px;
+    position: relative;
+}
+
+#icon-add {
+    background-position: -140px -810px;
+    margin-top: -70px;
+}
+
+#icon-email {
+    background-position: -140px -865px;
+    margin-top: -60px;
+}
+
+#icon-num {
+    background-position: -140px -920px;
+    margin-top: -60px;
+}

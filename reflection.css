@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary: #DEF2F1;
+    --secondary: #17252A;
+    --accent1: #3AAFA9;
+    --accent2: #2B7A78;
+    --accent3: #FEFFFF;
+}
+
+body {
+    color: var(--accent3);
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--secondary);
+    position: relative;
+    margin: 30px 50px 50px 50px;
+}
+
+#back-btn {
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+#back-btn:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--primary);
+}
+
+#btn-img {
+    background-image: url(/images/resume-sprite.png); 
+    width: 50px;
+    height: 50px;
+    zoom: .6;
+    background-position: -522px -1132px;
+    position: relative;
+    margin-top: -45px;
+    transform: scaleX(-1);
+}
+
+header {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 60px;
+}
+
+hr {
+    width: 80%;
+    border-color: var(--primary);
+}
+
+.q-title, .and, .a-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: var(--accent1);
+    text-shadow: 3px 3px var(--accent2);
+    margin-bottom: 10px;
+}
+
+.and {
+    text-align: center;
+}
+
+.a-title {
+    text-align: right;
+}
+
+.reflection-question {
+    margin-left: 50px;
+    max-width: 600px;
+    font-size: 20px;
+}
+
+.reflection-answer {
+    margin-right: 50px;
+    max-width: 600px;
+}
