@@ -84,7 +84,7 @@ body {
     color: var(--accent3);
     border: 2px solid var(--secondary);
     border-radius: 30px;
-    /* padding-top: 50px; */
+    padding-top: 50px;
     width: 100%;
     height: 800px;
 }
@@ -99,25 +99,25 @@ body {
 }
 
 .about h4 {
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 0px;
 }
 
 .about-content ul {
     display: grid;
     grid-template-columns: auto auto;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 
 .about p {
     margin: 0px;
-
+    font-size: 20px;
 }
 
 .projects {
     height: 800px;
-    /* padding-top: 50px; */
+    padding-top: 50px;
 }
 
 .project-content {
@@ -132,12 +132,13 @@ body {
 }
 
 .proj-title {
-    font-size: 18px;
+    font-size: 27px;
     font-weight: 500;
 }
 
 .proj-desc {
-    font-size: 16px;
+    font-size: 20px;
+    max-width: 750px;
 }
 
 .contact-content {
