@@ -201,7 +201,7 @@ body {
 }
 
 .contact-facebook {
-    background-image: url(images/contact-icons-sprite.png);
+    background-image: url(./images/contact-icons-sprite.png);
     background-position: -50px -45px;
 }
 
