@@ -13,7 +13,7 @@ body {
     font-family: "Montserrat", sans-serif;
     background-color: var(--secondary);
     position: relative;
-    margin: 30px 50px 50px 50px;
+    margin: 30px 50px 100px 50px;
 }
 
 #back-btn {
@@ -77,4 +77,10 @@ hr {
 .reflection-answer {
     margin-right: 50px;
     max-width: 600px;
+    float: right;
+    font-size: 20px;
+}
+
+.reflection-container {
+    height: 450px;
 }
