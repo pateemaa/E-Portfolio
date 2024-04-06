@@ -202,11 +202,6 @@ body {
     background-position: -50px -45px;
 }
 
-.contact-telegram {
-    background-image: url(/images/contact-icons-sprite.png);
-    background-position: -255px -50px;
-}
-
 #contact-info button:hover {
     box-shadow: 0 0 8px var(--primary);
     border-color: var(--accent3);
