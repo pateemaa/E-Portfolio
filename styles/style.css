@@ -224,6 +224,10 @@ body {
     font-size: 14px;
 }
 
+.footer-nav a:hover{
+    color: var(--accent1);
+}
+
 #nav-about:background-color, #nav-proj, #nav-resume, #nav-reflection, #nav-contact {
     visibility: hidden;
 }
