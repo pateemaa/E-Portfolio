@@ -46,7 +46,7 @@ header {
 }
 
 #btn-img {
-    background-image: url(images/resume-sprite.png); 
+    background-image: url(../images/resume-sprite.png); 
     width: 50px;
     height: 50px;
     zoom: .6;
@@ -84,7 +84,7 @@ header {
 }
 
 #my-img {
-    background-image: url(images/resume-sprite.png);
+    background-image: url(../images/resume-sprite.png);
     height: 450px;
     width: 475px;
     background-position: -130px -60px;
@@ -139,7 +139,7 @@ header {
 }
 
 .accent-img {
-    background-image: url(images/resume-sprite.png);
+    background-image: url(../images/resume-sprite.png);
     width: 50px;
     height: 50px;
     background-position: -522px -1132px;
@@ -153,7 +153,7 @@ header {
 }
 
 .contact-icon {
-    background-image: url(images/resume-sprite.png);
+    background-image: url(../images/resume-sprite.png);
     width: 45px;
     height: 45px;
     position: relative;

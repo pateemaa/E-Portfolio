@@ -65,7 +65,7 @@ body {
 .home-img {
     height: 500px;
     max-width: 100%;
-    background-image: url(images/e-port-sprite.png);
+    background-image: url(../images/e-port-sprite.png);
     background-position: 0px 500px;
     zoom: 1.2;
 }
@@ -128,7 +128,7 @@ body {
     position: absolute;
     top: 1300px;
     right: -5px;
-    background-image: url(images/e-port-sprite.png);
+    background-image: url(../images/e-port-sprite.png);
     background-position: -1450px 600px;
     zoom: 0.9;
 }
