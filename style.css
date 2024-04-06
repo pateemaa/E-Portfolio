@@ -62,6 +62,14 @@ body {
     font-weight: 600;
 }
 
+.home-img {
+    height: 500px;
+    max-width: 100%;
+    background-image: url(/images/e-port-sprite.png);
+    background-position: 0px 500px;
+    zoom: 1.2;
+}
+
 .section-title {
     font-size: 35px;
     margin-bottom: 0px;
@@ -89,7 +97,6 @@ body {
     height: 810px;
 }
 
-
 .about-content {
     display: grid;
     grid-template-rows: auto auto;
@@ -105,7 +112,7 @@ body {
 
 .about-content ul {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 300px 300px;
     font-size: 20px;
 }
 
@@ -113,6 +120,17 @@ body {
 .about p {
     margin: 0px;
     font-size: 20px;
+}
+
+.about-img {
+    height: 600px;
+    width: 470px;
+    position: absolute;
+    top: 1300px;
+    right: -5px;
+    background-image: url(/images/e-port-sprite.png);
+    background-position: -1450px 600px;
+    zoom: 0.9;
 }
 
 .projects {
@@ -210,4 +228,19 @@ body {
 
 #nav-about:background-color, #nav-proj, #nav-resume, #nav-reflection, #nav-contact {
     visibility: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+    body {width: 8.33%;}
+    body {width: 16.66%;}
+    body {width: 25%;}
+    body {width: 33.33%;}
+    body {width: 41.66%;}
+    body {width: 50%;}
+    body {width: 58.33%;}
+    body {width: 66.66%;}
+    body {width: 75%;}
+    body {width: 83.33%;}
+    body {width: 91.66%;}
+    body {width: 100%;}
 }
