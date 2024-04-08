@@ -39,7 +39,8 @@ body {
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
-    margin: 1vh 2vw 1vh 3vw /*top left bottom right*/
+    margin: 1vh 2vw 1vh 3vw;  /*top left bottom right*/
+    z-index: 9999;
 }
 
 .nav-option {
@@ -49,6 +50,7 @@ body {
     padding-top: 1vh;
     padding-bottom: 1vh;
     margin: auto auto auto auto;
+    z-index: 9999;
 }
 
 .active {
