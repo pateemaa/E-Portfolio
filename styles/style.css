@@ -20,15 +20,17 @@ body {
 
 .navbar {
     background-color: var(--secondary);
-    height: 60px;
+    height: 8vh;
     border-radius: 30px;
     text-align: center;
     justify-content: space-between;
     display: flex;
     position: fixed;
-    width: 90%;
-    margin-left: 60px;
-    margin-top: 10px;
+    max-width: 100vw;
+    margin-left: 6vw;
+    margin-top: 1.5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 .navbar a {
@@ -36,15 +38,16 @@ body {
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
-    margin: 6px 50px 50px 50px;
+    margin: 1vh 2vw 1vh 3vw /*top left bottom right*/
 }
 
 .nav-option {
     border-radius: 30px;
-    height: 35px;
-    width: 500px;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    height: 4vh;
+    width: 9vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin: auto auto auto auto;
 }
 
 .active {
@@ -63,11 +66,12 @@ body {
 }
 
 .home-img {
-    height: 500px;
-    max-width: 100%;
+    height: 80vh;
+    max-width: 100vw;
     background-image: url(../images/e-port-sprite.png);
-    background-position: 0px 500px;
-    zoom: 1.2;
+    background-position: left bottom;
+    background-attachment: scroll;
+    background-size: 140%;
 }
 
 .section-title {
@@ -95,6 +99,7 @@ body {
     padding-top: 50px;
     width: 100%;
     height: 810px;
+    position: relative;
 }
 
 .about-content {
@@ -112,7 +117,7 @@ body {
 
 .about-content ul {
     display: grid;
-    grid-template-columns: 300px 300px;
+    grid-template-columns: auto auto;
     font-size: 20px;
 }
 
@@ -123,14 +128,21 @@ body {
 }
 
 .about-img {
-    height: 600px;
-    width: 470px;
+    height: 65vh;
+    width: 25vw;
     position: absolute;
-    top: 1300px;
-    right: -5px;
+    right: 0;
+    bottom: 0vh;
     background-image: url(../images/e-port-sprite.png);
-    background-position: -1450px 600px;
-    zoom: 0.9;
+    background-position: right bottom;
+    background-attachment: local;
+    background-size: 410%;
+    background-repeat: no-repeat;
+}
+
+#about-me .about-img {
+    right: 0vw;
+    bottom: 0vh;
 }
 
 .projects {
@@ -168,9 +180,11 @@ body {
     background-color: var(--secondary);
     color: var(--accent3);
     height: 200px;
-    position: absolute;
     width: 100%;
     left: 0;
+    bottom: 0;
+    position: relative;
+    z-index: 1;
 }
 
 .contact .section-title {
